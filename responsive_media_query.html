@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Inspired by: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+	padding: 20px;
+  	float: left;	
+}
+
+#left {
+  background-color: #2196F3;
+  width: 20%; /* The width is 20%, by default */
+}
+
+#main {
+  background-color: #f1f1f1;
+  width: 60%; /* The width is 60%, by default */
+}
+
+#right {
+  background-color: #04AA6D;
+  width: 20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Media Queries</h2>
+<p>Resize the browser window.</p>
+
+<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+<div id="left" class="menu">
+  <p>Left Menu</p>
+</div>
+
+<div id="main" class="menu">
+  <p>Main Content</p>
+</div>
+
+<div id="right" class="menu">
+  <p>Right Content</p>
+</div>
+
+</body>
+</html>
+
