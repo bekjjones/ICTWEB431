@@ -58,6 +58,10 @@ form {
 	width: 20%; /* The width is 20%, by default */
 }
 
+main {
+	margin: 10px 0 10px 0;
+}
+
 footer {
 	margin: 10px 0 10px 0;
 	font-size: 12px;
