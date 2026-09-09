@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.menu {
+.content {
 	padding: 20px;
   	float: left;	
 }
@@ -38,23 +38,28 @@
 </head>
 <body>
 
-<h2>Media Queries</h2>
-<p>Resize the browser window.</p>
+	<header>
+		<h2>Media Queries</h2>
+		<p>Resize the browser window.</p>
+	</header>
 
-<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
-
-<div id="left" class="menu">
-  <p>Left Menu</p>
-</div>
-
-<div id="main" class="menu">
-  <p>Main Content</p>
-</div>
-
-<div id="right" class="menu">
-  <p>Right Content</p>
-</div>
-
+	<main>
+		<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+	
+		<section id="left" class="content">
+		  <p>Left Menu</p>
+		</section>
+		
+		<section id="main" class="content">
+		  <p>Main Content</p>
+		</section>
+		
+		<section id="right" class="content">
+		  <p>Right Content</p>
+		</section>
+		
+	</main>
+	
 </body>
 </html>
 
