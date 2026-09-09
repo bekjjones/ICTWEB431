@@ -58,6 +58,11 @@ form {
 	width: 20%; /* The width is 20%, by default */
 }
 
+footer {
+	padding: 10px;
+	font-style: italic;
+}
+
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 800px) {
 	.left, .main, .right {
